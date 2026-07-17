@@ -4,8 +4,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="<?= url('') ?>" class="brand">
-          <span class="brand-mark"><?= icon('graduation') ?></span>
-          <span style="color:#fff">Addis Future College</span>
+          <img src="<?= asset('Images/Logo (2).png') ?>" alt="<?= e(SITE_NAME) ?>" class="brand-logo">
         </a>
         <p>A premier private college in Addis Ababa preparing Ethiopia's next generation of professionals, entrepreneurs, and leaders.</p>
         <div class="social-row">
