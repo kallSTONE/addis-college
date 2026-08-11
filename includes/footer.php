@@ -55,6 +55,7 @@
     </div>
   </div>
 </footer>
+<a href="<?= url('apply') ?>" class="floating-apply"><?= icon('arrow-right') ?> <span><?= e(t('nav_apply')) ?></span></a>
 <div class="lightbox" aria-hidden="true">
   <button class="close" aria-label="Close">&times;</button>
   <img src="" alt="">

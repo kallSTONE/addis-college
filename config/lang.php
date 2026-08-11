@@ -61,4 +61,4 @@ function get_language_name(string $lang): string {
 function get_other_language(): string {
     global $current_lang;
     return $current_lang === 'am' ? 'en' : 'am';
-}
+}  

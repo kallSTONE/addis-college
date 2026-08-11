@@ -81,7 +81,6 @@ function is_active(string $href): bool {
     </nav>
     <div class="header-cta">
       <a href="<?= url('contact') ?>" class="btn btn-ghost"><?= e(t('nav_visit')) ?></a>
-      <a href="<?= url('apply') ?>" class="btn btn-primary"><?= e(t('nav_apply')) ?></a>
       <div class="lang-switcher" id="langSwitcher">
         <button class="lang-toggle" aria-label="<?= e(t('select_language')) ?>" aria-haspopup="true" aria-expanded="false" title="<?= e(t('select_language')) ?>">
           <span class="lang-code"><?= strtoupper($current_lang) ?></span>
@@ -96,7 +95,7 @@ function is_active(string $href): bool {
           </a>
         </div>
       </div>
-      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="mobileNav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>

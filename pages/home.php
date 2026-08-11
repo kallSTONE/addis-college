@@ -148,17 +148,13 @@ require __DIR__ . '/../includes/header.php';
       <span class="eyebrow"><?= icon('calendar') ?> News & Events</span>
       <h2>What's happening at AFC</h2>
     </div>
-    <div class="grid" style="grid-template-columns:1.4fr 1fr;gap:2.5rem;align-items:start">
-      <div class="grid grid-2">
+    <div class="news-events-layout">
+      <div class="news-preview-grid">
         <?php foreach (array_slice($news, 0, 4) as $i => $n): ?>
-          <article class="card news-card reveal" data-delay="<?= ($i % 2) + 1 ?>">
+          <article class="card news-card compact reveal" data-delay="<?= ($i % 2) + 1 ?>">
             <img class="thumb" src="<?= e($n['image']) ?>" alt="<?= e($n['title']) ?>" loading="lazy">
-            <div class="body">
-              <span class="badge badge-brand"><?= e($n['category']) ?></span>
-              <span class="date"><?= date('M j, Y', strtotime($n['date'])) ?></span>
+            <div class="overlay">
               <h3><?= e($n['title']) ?></h3>
-              <p><?= e($n['excerpt']) ?></p>
-              <a href="<?= url('news') ?>" class="more">Read more <?= icon('arrow-right') ?></a>
             </div>
           </article>
         <?php endforeach; ?>
