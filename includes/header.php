@@ -121,6 +121,11 @@ function is_active(string $href): bool {
     <a href="<?= url('portals/alumni') ?>"><?= e(t('nav_alumni')) ?></a>
     <a href="<?= url('portals/mobile') ?>"><?= e(t('nav_mobile')) ?></a>
   </div>
+  <div class="mobile-nav-section">
+    <div class="mobile-nav-label"><?= e(t('select_language')) ?></div>
+    <a href="?lang=en" class="<?= $current_lang === 'en' ? 'active' : '' ?>"><?= icon('globe') ?> English</a>
+    <a href="?lang=am" class="<?= $current_lang === 'am' ? 'active' : '' ?>"><?= icon('globe') ?> አማርኛ</a>
+  </div>
   <a href="<?= url('apply') ?>" class="btn btn-primary"><?= e(t('nav_apply')) ?></a>
 </div>
 <main id="main">

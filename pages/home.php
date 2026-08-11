@@ -13,8 +13,8 @@ require __DIR__ . '/../includes/header.php';
   <div class="container hero-inner">
     <div>
       <span class="eyebrow"><?= icon('star') ?> Admissions open for 2025/26 E.C.</span>
-      <h1>Build your future at <span class="hl">Addis Future College</span></h1>
-      <p>From computing and engineering to nursing, business, and hospitality — we equip students with the skills, mentorship, and real-world experience to lead Ethiopia forward.</p>
+      <h1>Welcome To <span class="hl">Addis Future College</span></h1>
+      <p>From computing and engineering to nursing, business, and hospitality — 50 Years Experiences.</p>
       <div class="hero-actions">
         <a href="<?= url('apply') ?>" class="btn btn-gold btn-lg"><?= icon('arrow-right') ?> Apply Online</a>
         <a href="<?= url('programs') ?>" class="btn btn-outline-light btn-lg">Explore Programs</a>

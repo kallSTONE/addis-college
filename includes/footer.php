@@ -56,6 +56,13 @@
   </div>
 </footer>
 <a href="<?= url('apply') ?>" class="floating-apply"><?= icon('arrow-right') ?> <span><?= e(t('nav_apply')) ?></span></a>
+<aside class="floating-social" aria-label="Social media">
+  <a href="<?= e(SOCIAL_FACEBOOK) ?>" aria-label="Facebook" title="Facebook"><?= icon('facebook') ?></a>
+  <a href="<?= e(SOCIAL_TWITTER) ?>" aria-label="Twitter" title="Twitter"><?= icon('twitter') ?></a>
+  <a href="<?= e(SOCIAL_LINKEDIN) ?>" aria-label="LinkedIn" title="LinkedIn"><?= icon('linkedin') ?></a>
+  <a href="<?= e(SOCIAL_YOUTUBE) ?>" aria-label="YouTube" title="YouTube"><?= icon('youtube') ?></a>
+  <a href="<?= e(SOCIAL_TELEGRAM) ?>" aria-label="Telegram" title="Telegram"><?= icon('send') ?></a>
+</aside>
 <div class="lightbox" aria-hidden="true">
   <button class="close" aria-label="Close">&times;</button>
   <img src="" alt="">
