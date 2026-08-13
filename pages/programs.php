@@ -65,7 +65,7 @@ require __DIR__ . '/../includes/header.php';
         <img class="reveal" data-delay="2" src="https://images.pexels.com/photos/5212703/pexels-photo-5212703.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Engineering workshop" style="border-radius:var(--r-lg);aspect-ratio:1;object-fit:cover;margin-top:2rem">
         <img class="reveal" data-delay="3" src="https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Nursing lab" style="border-radius:var(--r-lg);aspect-ratio:1;object-fit:cover;margin-top:-2rem">
         <img class="reveal" data-delay="4" src="https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Business class" style="border-radius:var(--r-lg);aspect-ratio:1;object-fit:cover">
-      </div>
+      </div> 
     </div>
   </div>
 </section>
@@ -83,8 +83,8 @@ require __DIR__ . '/../includes/header.php';
       <div class="accordion-item"><button class="accordion-head">Do you help with job placement? <span class="chev"><?= icon('chevron-down') ?></span></button><div class="accordion-body"><div class="inner">Yes. Our Career Center runs internship programs, employer networking events, and a job board, and provides CV and interview coaching. 94% of our graduates are employed or in further study within six months.</div></div></div>
     </div>
   </div>
-</section>
+</section> 
 
 <?= render_cta_band('Found a program you love?', 'Start your application today — it takes about 15 minutes, and our admissions team is here to help.', 'Apply Online', '/apply') ?>
-
+ 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

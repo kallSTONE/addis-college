@@ -2,7 +2,7 @@
 $pageTitle = 'Page not found — Addis Future College';
 http_response_code(404);
 require __DIR__ . '/../includes/header.php';
-?>
+?> 
 <section class="page-hero">
   <div class="container center">
     <span class="eyebrow"><?= icon('compass') ?> 404</span>
@@ -11,7 +11,7 @@ require __DIR__ . '/../includes/header.php';
     <div class="flex gap-2 wrap center mt-3">
       <a href="<?= url('') ?>" class="btn btn-gold btn-lg"><?= icon('arrow-right') ?> Back to home</a>
       <a href="<?= url('programs') ?>" class="btn btn-outline-light btn-lg">Browse programs</a>
-    </div>
+    </div> 
   </div>
 </section>
 <section class="section">

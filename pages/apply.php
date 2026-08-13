@@ -4,7 +4,7 @@ $pageDesc = 'Apply online to Addis Future College. Choose your program, submit y
 require_once __DIR__ . '/../config/db.php';
 $programs = programs_data();
 require __DIR__ . '/../includes/header.php';
-
+   
 $submitted = false;
 $error = false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

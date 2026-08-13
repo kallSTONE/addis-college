@@ -6,12 +6,12 @@ $slug = ltrim(str_replace('/portals/', '', $route), '/');
 $portal = null;
 foreach ($portals as $p) {
     if ($p['id'] === $slug) { $portal = $p; break; }
-}
+}  
 if (!$portal) { http_response_code(404); require __DIR__ . '/404.php'; return; }
 
 $pageTitle = $portal['title'] . ' — Coming Soon — Addis Future College';
 $pageDesc = $portal['title'] . ' is coming soon to Addis Future College. ' . $portal['desc'];
-
+ 
 require_once __DIR__ . '/../config/db.php';
 require __DIR__ . '/../includes/header.php';
 
@@ -82,5 +82,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
   </div>
 </section>
-
+ 
 <?php require __DIR__ . '/../includes/footer.php'; ?>
