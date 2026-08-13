@@ -2,7 +2,7 @@
 $pageTitle = 'Admissions — Addis Future College';
 $pageDesc = 'How to apply to Addis Future College: requirements, deadlines, tuition, scholarships, and the step-by-step admissions process.';
 require __DIR__ . '/../includes/header.php';
-?>
+?>   
 <section class="page-hero">
   <div class="container">
     <div class="breadcrumb"><a href="<?= url('') ?>">Home</a><span>/</span> Admissions</div>
@@ -13,13 +13,13 @@ require __DIR__ . '/../includes/header.php';
       <a href="<?= url('apply') ?>" class="btn btn-gold btn-lg"><?= icon('arrow-right') ?> Apply Online</a>
       <a href="#process" class="btn btn-outline-light btn-lg">See the process</a>
     </div>
-  </div>
+  </div>    
 </section>
-
+  
 <section class="section" id="process">
   <div class="container">
     <div class="section-head">
-      <span class="eyebrow"><?= icon('compass') ?> The Process</span>
+      <span class="eyebrow"><?= icon('compass') ?> The Process </span>
       <h2>Four simple steps to enrollment</h2>
     </div>
     <div class="grid grid-4">

@@ -3,23 +3,23 @@ $pageTitle = 'Faculty — Addis Future College';
 $pageDesc = 'Meet the faculty of Addis Future College — experienced educators and industry practitioners across computing, business, engineering, nursing, and more.';
 $faculty = faculty_data();
 require __DIR__ . '/../includes/header.php';
-?>
+?> 
 <section class="page-hero">
   <div class="container">
     <div class="breadcrumb"><a href="<?= url('') ?>">Home</a><span>/</span> Faculty</div>
     <span class="eyebrow"><?= icon('users') ?> Our People</span>
     <h1>Learn from practitioners, not just professors</h1>
     <p>Our 180+ faculty members bring decades of combined industry and academic experience into the classroom — from software engineers and licensed engineers to nurses, accountants, and architects.</p>
-  </div>
-</section>
-
+  </div> 
+</section>  
+ 
 <section class="section">
   <div class="container">
     <div class="section-head">
       <span class="eyebrow"><?= icon('star') ?> Department Heads</span>
       <h2>Meet the faculty</h2>
       <p>Department heads and program coordinators who shape what and how we teach.</p>
-    </div>
+    </div> 
     <div class="grid grid-4">
       <?php foreach ($faculty as $i => $f): ?>
         <article class="card faculty-card reveal" data-delay="<?= ($i % 4) + 1 ?>">

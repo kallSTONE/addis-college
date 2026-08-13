@@ -9,7 +9,7 @@ require __DIR__ . '/../includes/header.php';
   <div class="container">
     <div class="breadcrumb"><a href="<?= url('') ?>">Home</a><span>/</span> Gallery</div>
     <span class="eyebrow"><?= icon('globe') ?> Campus Gallery</span>
-    <h1>A glimpse of life at AFC</h1>
+    <h1>A glimpse</h1>
     <p>From modern labs and lecture halls to student life and signature events — explore Addis Future College through images.</p>
   </div>
 </section>
