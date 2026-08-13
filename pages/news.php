@@ -81,7 +81,7 @@ require __DIR__ . '/../includes/header.php';
             <div class="field" style="flex:1;min-width:240px"><input type="email" required placeholder="you@example.com" aria-label="Email"></div>
             <button type="submit" class="btn btn-primary"><?= icon('send') ?> Subscribe</button>
           </div>
-          <p class="hint mt-1">We respect your privacy. Unsubscribe anytime.</p>
+          <p class="hint mt-1">We respect   your privacy. Unsubscribe anytime.</p>
         </form>
       </div>
     </div>

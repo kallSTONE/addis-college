@@ -203,7 +203,7 @@ require __DIR__ . '/../includes/header.php';
   </div>
 </section>
 
-<!-- Coming soon portals -->
+
 <section class="section section-dark">
   <div class="container">
     <div class="section-head">

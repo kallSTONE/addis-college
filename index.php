@@ -7,7 +7,7 @@ require_once __DIR__ . '/config/data.php';
 $uri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?? '/';
 $uri = rtrim($uri, '/') ?: '/';
 
-// Serve static assets directly (PHP built-in server handles these if using -t)
+// Serve static assets directly (CSS, JS, images, etc.)
 $routes = [
     '/'           => 'pages/home.php',
     '/about'      => 'pages/about.php',
